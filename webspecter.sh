@@ -35,6 +35,10 @@ Notes:
 - Manual testing required
 - Guidance appears only if signals exist
 
+EOF
+exit 0
+fi
+
 # ---------- RECON ----------
 bash "$WS_ROOT/core/orchestrator.sh" "$TARGET"
 
